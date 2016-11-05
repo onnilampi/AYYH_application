@@ -7,8 +7,13 @@ besure(){
 
     clear
 
+
+
     [ $UID -eq 0 ] && echo "Do not run this with sudo." && exit 1
 
+    cat LICENSE
+    echo ""
+    echo ""
     echo "Things to install:"
     echo " * texlive"
     echo " * make"
